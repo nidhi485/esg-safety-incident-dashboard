@@ -1,0 +1,418 @@
+{
+  "data": {
+    "synthetic_rows": 162,
+    "templates": 36,
+    "bundled_rows": 6
+  },
+  "category": {
+    "majority_class": {
+      "accuracy": 0.154,
+      "macro_f1": 0.141,
+      "per_class_f1": {
+        "safety": 0.237,
+        "environment": 0.186,
+        "esg_compliance": 0.0
+      }
+    },
+    "tfidf_complement_nb": {
+      "accuracy": 0.716,
+      "macro_f1": 0.717,
+      "per_class_f1": {
+        "safety": 0.679,
+        "environment": 0.729,
+        "esg_compliance": 0.743
+      }
+    },
+    "tfidf_linear_svc": {
+      "accuracy": 0.685,
+      "macro_f1": 0.684,
+      "per_class_f1": {
+        "safety": 0.61,
+        "environment": 0.73,
+        "esg_compliance": 0.712
+      }
+    },
+    "tfidf_logreg_C1": {
+      "accuracy": 0.66,
+      "macro_f1": 0.661,
+      "per_class_f1": {
+        "safety": 0.607,
+        "environment": 0.703,
+        "esg_compliance": 0.673
+      }
+    },
+    "tfidf_logreg_C10 (chosen)": {
+      "accuracy": 0.673,
+      "macro_f1": 0.672,
+      "per_class_f1": {
+        "safety": 0.61,
+        "environment": 0.708,
+        "esg_compliance": 0.698
+      }
+    },
+    "tfidf_logreg_C10_unigram": {
+      "accuracy": 0.679,
+      "macro_f1": 0.675,
+      "per_class_f1": {
+        "safety": 0.574,
+        "environment": 0.765,
+        "esg_compliance": 0.685
+      }
+    },
+    "tfidf_logreg_C10_stopwords_removed": {
+      "accuracy": 0.568,
+      "macro_f1": 0.566,
+      "per_class_f1": {
+        "safety": 0.534,
+        "environment": 0.612,
+        "esg_compliance": 0.552
+      }
+    }
+  },
+  "severity": {
+    "majority_class": {
+      "accuracy": 0.309,
+      "macro_f1": 0.179,
+      "per_class_f1": {
+        "low": 0.068,
+        "medium": 0.47,
+        "high": 0.0
+      }
+    },
+    "tfidf_complement_nb": {
+      "accuracy": 0.358,
+      "macro_f1": 0.335,
+      "per_class_f1": {
+        "low": 0.508,
+        "medium": 0.314,
+        "high": 0.182
+      }
+    },
+    "tfidf_linear_svc": {
+      "accuracy": 0.358,
+      "macro_f1": 0.34,
+      "per_class_f1": {
+        "low": 0.41,
+        "medium": 0.377,
+        "high": 0.232
+      }
+    },
+    "tfidf_logreg_C1": {
+      "accuracy": 0.352,
+      "macro_f1": 0.335,
+      "per_class_f1": {
+        "low": 0.393,
+        "medium": 0.368,
+        "high": 0.242
+      }
+    },
+    "tfidf_logreg_C10 (chosen)": {
+      "accuracy": 0.34,
+      "macro_f1": 0.319,
+      "per_class_f1": {
+        "low": 0.383,
+        "medium": 0.362,
+        "high": 0.212
+      }
+    },
+    "tfidf_logreg_C10_unigram": {
+      "accuracy": 0.364,
+      "macro_f1": 0.348,
+      "per_class_f1": {
+        "low": 0.393,
+        "medium": 0.394,
+        "high": 0.257
+      }
+    },
+    "tfidf_logreg_C10_stopwords_removed": {
+      "accuracy": 0.265,
+      "macro_f1": 0.253,
+      "per_class_f1": {
+        "low": 0.311,
+        "medium": 0.294,
+        "high": 0.154
+      }
+    },
+    "keyword_rules_only": {
+      "accuracy": 0.932,
+      "macro_f1": 0.934,
+      "per_class_f1": {
+        "low": 0.936,
+        "medium": 0.925,
+        "high": 0.941
+      }
+    },
+    "rejected_hybrid_logreg_plus_rule_floor": {
+      "accuracy": 0.5,
+      "macro_f1": 0.515,
+      "per_class_f1": {
+        "low": 0.422,
+        "medium": 0.407,
+        "high": 0.717
+      }
+    },
+    "rules_final_label (chosen)": {
+      "accuracy": 0.932,
+      "macro_f1": 0.934,
+      "per_class_f1": {
+        "low": 0.936,
+        "medium": 0.925,
+        "high": 0.941
+      }
+    }
+  },
+  "review_flag_severity": {
+    "share_flagged_no_cue": 0.475,
+    "rule_error_rate_when_no_cue": 0.117,
+    "rule_error_rate_when_cue": 0.024,
+    "n_no_cue": 77
+  },
+  "review_flag_category": {
+    "share_flagged_low_conf": 0.574,
+    "category_error_rate_when_low_conf": 0.495,
+    "category_error_rate_when_confident": 0.101
+  },
+  "high_severity_recall": {
+    "logreg_only": 0.194,
+    "rejected_hybrid": 0.917,
+    "rules_final": 0.889
+  },
+  "severity_within_one_level_rules": 1.0,
+  "category_fold_macro_f1": {
+    "tfidf_complement_nb": [
+      0.492,
+      0.851,
+      0.746,
+      0.756,
+      0.433
+    ],
+    "tfidf_logreg_C10 (chosen)": [
+      0.425,
+      0.787,
+      0.691,
+      0.779,
+      0.423
+    ]
+  },
+  "bundled_check": {
+    "category_accuracy": 1.0,
+    "severity_accuracy": 0.833,
+    "rows": [
+      {
+        "id": "S001",
+        "narrative": "Contractor slipped near wet walkway at solar block, minor injury, housekeeping issue",
+        "cat_true": "safety",
+        "cat_pred": "safety",
+        "sev_true": "medium",
+        "sev_pred": "medium",
+        "review": true
+      },
+      {
+        "id": "S002",
+        "narrative": "Oil seepage observed near wind gearbox maintenance bay, contained with spill kit",
+        "cat_true": "environment",
+        "cat_pred": "environment",
+        "sev_true": "high",
+        "sev_pred": "medium",
+        "review": true
+      },
+      {
+        "id": "S003",
+        "narrative": "PPE non-compliance observed during panel cleaning activity",
+        "cat_true": "safety",
+        "cat_pred": "safety",
+        "sev_true": "medium",
+        "sev_pred": "medium",
+        "review": true
+      },
+      {
+        "id": "S004",
+        "narrative": "Near miss: vehicle movement close to cable trench during night shift",
+        "cat_true": "safety",
+        "cat_pred": "safety",
+        "sev_true": "high",
+        "sev_pred": "high",
+        "review": false
+      },
+      {
+        "id": "S005",
+        "narrative": "Water usage spike during module cleaning due to valve leakage",
+        "cat_true": "environment",
+        "cat_pred": "environment",
+        "sev_true": "medium",
+        "sev_pred": "medium",
+        "review": true
+      },
+      {
+        "id": "S006",
+        "narrative": "Repeated waste segregation deviation at contractor storage area",
+        "cat_true": "esg_compliance",
+        "cat_pred": "esg_compliance",
+        "sev_true": "low",
+        "sev_pred": "low",
+        "review": false
+      }
+    ]
+  },
+  "confusion": {
+    "category": {
+      "labels": [
+        "safety",
+        "environment",
+        "esg_compliance"
+      ],
+      "matrix": [
+        [
+          32,
+          11,
+          11
+        ],
+        [
+          10,
+          40,
+          3
+        ],
+        [
+          9,
+          9,
+          37
+        ]
+      ]
+    },
+    "severity_rules": {
+      "labels": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "matrix": [
+        [
+          51,
+          5,
+          0
+        ],
+        [
+          2,
+          68,
+          0
+        ],
+        [
+          0,
+          4,
+          32
+        ]
+      ]
+    }
+  },
+  "misclassified_examples": [
+    {
+      "incident_id": "X003",
+      "narrative": "Near miss: tractor trolley movement close to O&M operator near wind turbine pad T12 during night shift",
+      "target_category": "safety",
+      "cat_pred": "environment",
+      "target_severity": "high",
+      "sev_pred": "medium"
+    },
+    {
+      "incident_id": "X004",
+      "narrative": "Observation: contractor technician walking without holding handrail at BESS container area, counselled immediately",
+      "target_category": "safety",
+      "cat_pred": "esg_compliance",
+      "target_severity": "low",
+      "sev_pred": "low"
+    },
+    {
+      "incident_id": "X005",
+      "narrative": "Regulator issued notice after fire NOC lapsed without renewal at wind turbine pad T27",
+      "target_category": "esg_compliance",
+      "cat_pred": "environment",
+      "target_severity": "high",
+      "sev_pred": "high"
+    },
+    {
+      "incident_id": "X006",
+      "narrative": "Sparking and smoke from tracker motor at solar block 7, fire extinguisher used to put out flames",
+      "target_category": "safety",
+      "cat_pred": "environment",
+      "target_severity": "high",
+      "sev_pred": "high"
+    },
+    {
+      "incident_id": "X009",
+      "narrative": "Corrective action for emergency drill audit observation overdue by several weeks",
+      "target_category": "esg_compliance",
+      "cat_pred": "esg_compliance",
+      "target_severity": "medium",
+      "sev_pred": "low"
+    },
+    {
+      "incident_id": "X010",
+      "narrative": "Contractor technician received an electric shock while isolating hydraulic unit; lockout tagout step skipped",
+      "target_category": "safety",
+      "cat_pred": "environment",
+      "target_severity": "high",
+      "sev_pred": "high"
+    },
+    {
+      "incident_id": "X012",
+      "narrative": "PPE non-compliance observed during module installation, safety helmet not worn at wind turbine pad T12",
+      "target_category": "safety",
+      "cat_pred": "esg_compliance",
+      "target_severity": "medium",
+      "sev_pred": "medium"
+    },
+    {
+      "incident_id": "X013",
+      "narrative": "Minor water leakage from tap at inverter yard wash area, repaired same day",
+      "target_category": "environment",
+      "cat_pred": "safety",
+      "target_severity": "low",
+      "sev_pred": "low"
+    },
+    {
+      "incident_id": "X014",
+      "narrative": "Toolbox talk record missing for second shift at penstock access road",
+      "target_category": "safety",
+      "cat_pred": "esg_compliance",
+      "target_severity": "low",
+      "sev_pred": "low"
+    },
+    {
+      "incident_id": "X015",
+      "narrative": "Unsafe act observation: electrician not using handrail on stairs at BESS container area, corrected on the spot",
+      "target_category": "safety",
+      "cat_pred": "esg_compliance",
+      "target_severity": "low",
+      "sev_pred": "low"
+    },
+    {
+      "incident_id": "X023",
+      "narrative": "Sparking and smoke from battery rack at inverter yard, fire extinguisher used to put out flames",
+      "target_category": "safety",
+      "cat_pred": "environment",
+      "target_severity": "high",
+      "sev_pred": "high"
+    },
+    {
+      "incident_id": "X025",
+      "narrative": "Audit finding on water stewardship still open beyond due date at inverter yard",
+      "target_category": "esg_compliance",
+      "cat_pred": "safety",
+      "target_severity": "medium",
+      "sev_pred": "medium"
+    }
+  ],
+  "misclassified_count": 59,
+  "recommender_proxy": {
+    "coverage_top1": 1.0,
+    "top1_same_category_as_true": 0.994,
+    "top1_tag_present_in_narrative": 1.0,
+    "caveat": "Proxy only. No expert judgement of action quality was collected."
+  },
+  "notes": [
+    "Synthetic data authored by the project author; scores show learnability of label conventions, not real-world accuracy.",
+    "GroupKFold by template_id: test templates are unseen, but different templates can still be semantically close.",
+    "Severity rules were written by the same author as the generator; rule performance is therefore optimistic.",
+    "The 6 bundled rows were read while designing lexicons, so they are a sanity check, not a blind test."
+  ]
+}

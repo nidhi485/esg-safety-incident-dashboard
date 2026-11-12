@@ -1,0 +1,35 @@
+{
+  "genai_status": {
+    "llm_enabled": false,
+    "provider": "none",
+    "model": null
+  },
+  "rows": 168,
+  "explanation_source_counts": {
+    "template": 168
+  },
+  "llm_acceptance_rate": 0.0,
+  "fallback_reasons": {
+    "LLM disabled (set LLM_PROVIDER and LLM_API_KEY to enable)": 168
+  },
+  "final_text_passes_validator": 1.0,
+  "template_passes_validator": 1.0,
+  "examples": [
+    {
+      "narrative": "Contractor slipped near wet walkway at solar block, minor injury, housekeeping issue",
+      "source": "template",
+      "explanation": "This report is classified as safety (71% model confidence) and rated medium severity; the deciding evidence was: no high or low cue matched -> default medium. Hazard themes detected: Slip / trip, Housekeeping. Suggested first action (immediate, Site supervisor): Clear and dry the walking surface, add anti-slip measures and warning signs; review cleaning and washing routines. A human should review this result because: no severity cue matched (defaulted to medium)."
+    },
+    {
+      "narrative": "Oil seepage observed near wind gearbox maintenance bay, contained with spill kit",
+      "source": "template",
+      "explanation": "This report is classified as environment (94% model confidence) and rated medium severity; the deciding evidence was: no high or low cue matched -> default medium. Hazard themes detected: Oil / fuel release. Controls already recorded in the report: contained with spill kit. Suggested first action (30 days, O&M manager): Inspect seals and gaskets on the equipment; stock spill kits and drip trays at all oil-handling points. A human should review this result because: no severity cue matched (defaulted to medium)."
+    },
+    {
+      "narrative": "PPE non-compliance observed during panel cleaning activity",
+      "source": "template",
+      "explanation": "This report is classified as safety (84% model confidence) and rated medium severity; the deciding evidence was: no high or low cue matched -> default medium. Hazard themes detected: PPE compliance. Suggested first action (30 days, Site EHS lead): Track PPE non-compliance by contractor and escalate repeat offenders in the weekly safety review. A human should review this result because: no severity cue matched (defaulted to medium)."
+    }
+  ],
+  "note": "Validator checks grounding (severity/category stated and not contradicted, no new numbers, no root-cause claim, length). It does not judge readability; a human should read a sample."
+}

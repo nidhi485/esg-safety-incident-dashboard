@@ -1,0 +1,163 @@
+incident_id,narrative,target_category,target_severity,template_id,incident_date,site_type,source
+X001,Noise slightly above internal target near hydraulic unit during test run at powerhouse deck,environment,low,EN11,2026-01-08,wind,synthetic
+X002,"Rigging crew member slipped on wet walkway near penstock access road, minor injury, first aid given",safety,medium,SF05,2026-01-19,bess_substation,synthetic
+X003,Near miss: tractor trolley movement close to O&M operator near wind turbine pad T12 during night shift,safety,high,SF01,2026-01-07,bess_substation,synthetic
+X004,"Observation: contractor technician walking without holding handrail at BESS container area, counselled immediately",safety,low,SF10,2026-01-25,wind,synthetic
+X005,Regulator issued notice after fire NOC lapsed without renewal at wind turbine pad T27,esg_compliance,high,EC01,2026-01-07,hydro,synthetic
+X006,"Sparking and smoke from tracker motor at solar block 7, fire extinguisher used to put out flames",safety,high,SF04,2026-01-28,hydro,synthetic
+X007,"Vehicle idling for long periods at powerhouse deck, observed during gate audit",environment,low,EN10,2026-01-15,solar,synthetic
+X008,Stakeholder visit record missing for one site visit at solar block 7,esg_compliance,low,EC12,2026-01-18,hydro,synthetic
+X009,Corrective action for emergency drill audit observation overdue by several weeks,esg_compliance,medium,EC05,2026-01-07,solar,synthetic
+X010,Contractor technician received an electric shock while isolating hydraulic unit; lockout tagout step skipped,safety,high,SF02,2026-01-28,wind,synthetic
+X011,Statutory compliance report for hazardous waste authorisation filed after the due date,esg_compliance,medium,EC08,2026-01-15,hydro,synthetic
+X012,"PPE non-compliance observed during module installation, safety helmet not worn at wind turbine pad T12",safety,medium,SF06,2026-01-20,wind,synthetic
+X013,"Minor water leakage from tap at inverter yard wash area, repaired same day",environment,low,EN08,2026-01-15,bess_substation,synthetic
+X014,Toolbox talk record missing for second shift at penstock access road,safety,low,SF11,2026-01-27,solar,synthetic
+X015,"Unsafe act observation: electrician not using handrail on stairs at BESS container area, corrected on the spot",safety,low,SF10,2026-01-13,hydro,synthetic
+X016,"Rigging crew member working at height without harness during vegetation clearing, found by supervisor at wind turbine pad T12",safety,high,SF03,2026-01-13,bess_substation,synthetic
+X017,"Rigging crew member slipped on muddy access road near wind turbine pad T12, minor injury, first aid given",safety,medium,SF05,2026-01-24,bess_substation,synthetic
+X018,Statutory compliance report for hazardous waste authorisation filed after the due date,esg_compliance,medium,EC08,2026-01-08,wind,synthetic
+X019,Multiple bird carcasses found near BESS container area during morning inspection,environment,medium,EN07,2026-02-02,solar,synthetic
+X020,"Rigging crew member slipped on freshly washed ramp near BESS container area, minor injury, first aid given",safety,medium,SF05,2026-02-20,solar,synthetic
+X021,"Minor oil seepage from hydraulic unit found during inspection of main gate, absorbent pads applied",environment,medium,EN03,2026-02-18,solar,synthetic
+X022,Battery electrolyte leak from hydraulic unit at penstock access road reached ground outside bunded area,environment,high,EN12,2026-02-25,hydro,synthetic
+X023,"Sparking and smoke from battery rack at inverter yard, fire extinguisher used to put out flames",safety,high,SF04,2026-02-01,hydro,synthetic
+X024,CSR visitor log not updated for the month at main gate,esg_compliance,low,EC12,2026-02-04,hydro,synthetic
+X025,Audit finding on water stewardship still open beyond due date at inverter yard,esg_compliance,medium,EC05,2026-02-25,wind,synthetic
+X026,"Minor water leakage from tap at O&M workshop wash area, repaired same day",environment,low,EN08,2026-02-11,bess_substation,synthetic
+X027,"Near miss as water tanker reversed without a banksman towards workers at BESS container area, second shift",safety,high,SF01,2026-02-02,wind,synthetic
+X028,Environmental return for consent to operate submitted late for the quarter,esg_compliance,medium,EC08,2026-02-24,bess_substation,synthetic
+X029,Audit finding on biodiversity still open beyond due date at inverter yard,esg_compliance,medium,EC05,2026-02-18,wind,synthetic
+X030,Daily toolbox talk not documented for transformer maintenance crew at wind turbine pad T12,safety,low,SF11,2026-02-23,hydro,synthetic
+X031,"Minor oil seepage from battery rack found during inspection of contractor storage area, absorbent pads applied",environment,medium,EN03,2026-02-04,wind,synthetic
+X032,"Observation: security guard walking without holding handrail at solar block 3, counselled immediately",safety,low,SF10,2026-02-18,wind,synthetic
+X033,Used oil drum stored without drip tray at solar block 7,environment,low,EN09,2026-02-23,solar,synthetic
+X034,"Unsafe act observation: contractor technician not using handrail on stairs at substation yard, corrected on the spot",safety,low,SF10,2026-02-17,wind,synthetic
+X035,Daily toolbox talk not documented for blade inspection crew at wind turbine pad T12,safety,low,SF11,2026-02-24,bess_substation,synthetic
+X036,"Observation: panel cleaning crew member walking without holding handrail at BESS container area, counselled immediately",safety,low,SF10,2026-02-07,solar,synthetic
+X037,"Sparking and smoke from switchgear panel at substation yard, fire extinguisher used to put out flames",safety,high,SF04,2026-03-14,bess_substation,synthetic
+X038,Environmental return for consent to operate submitted late for the quarter,esg_compliance,medium,EC08,2026-03-02,bess_substation,synthetic
+X039,Labour inspector flagged wage record discrepancy for contractor workers at wind turbine pad T12,esg_compliance,high,EC02,2026-03-07,wind,synthetic
+X040,"Minor water leakage from tap at cable trench corridor wash area, repaired same day",environment,low,EN08,2026-03-06,hydro,synthetic
+X041,"Dust from unpaved road at contractor storage area affecting nearby village, complaint received",environment,medium,EN06,2026-03-26,solar,synthetic
+X042,O&M operator received an electric shock while isolating power transformer; lockout tagout step skipped,safety,high,SF02,2026-03-06,bess_substation,synthetic
+X043,"Dust from unpaved road at cable trench corridor affecting nearby village, complaint received",environment,medium,EN06,2026-03-02,wind,synthetic
+X044,"Fuel spill from battery rack at wind turbine pad T27 flowed towards nearby stream, booms deployed",environment,high,EN02,2026-03-10,bess_substation,synthetic
+X045,Regulator issued notice after fire NOC lapsed without renewal at inverter yard,esg_compliance,high,EC01,2026-03-10,wind,synthetic
+X046,"Minor gap in calibration register at powerhouse deck, corrected during review",esg_compliance,low,EC11,2026-03-02,solar,synthetic
+X047,Used oil drum stored without drip tray at solar block 3,environment,low,EN09,2026-03-17,solar,synthetic
+X048,"Community grievance on road damage logged, response pending beyond 7 days",esg_compliance,medium,EC07,2026-03-03,wind,synthetic
+X049,"Oil seepage observed near wind gearbox at O&M workshop, contained with spill kit",environment,medium,EN03,2026-03-20,solar,synthetic
+X050,"Water usage spike during module cleaning due to tank overflow, tank level dropped overnight",environment,medium,EN04,2026-03-07,hydro,synthetic
+X051,"Observation: rigging crew member walking without holding handrail at inverter yard, counselled immediately",safety,low,SF10,2026-03-21,hydro,synthetic
+X052,"Dust from unpaved road at solar block 3 affecting nearby village, complaint received",environment,medium,EN06,2026-03-15,solar,synthetic
+X053,"Fall from height by electrician during blade inspection at main gate, no fall arrest anchored",safety,high,SF03,2026-03-12,solar,synthetic
+X054,Statutory compliance report for hazardous waste authorisation filed after the due date,esg_compliance,medium,EC08,2026-03-06,bess_substation,synthetic
+X055,Safety induction records missing for new contractor crew at O&M workshop,esg_compliance,medium,EC06,2026-04-26,solar,synthetic
+X056,Coolant release from power transformer at penstock access road escaped secondary containment,environment,high,EN12,2026-04-05,hydro,synthetic
+X057,"Security guard slipped on oily floor near powerhouse deck, minor injury, first aid given",safety,medium,SF05,2026-04-09,hydro,synthetic
+X058,Excess engine idling at wind turbine pad T12 reported by security,environment,low,EN10,2026-04-22,hydro,synthetic
+X059,Bat and bird collision remains found around turbine area solar block 3 after night operation,environment,medium,EN07,2026-04-03,bess_substation,synthetic
+X060,Contractor water stewardship training records incomplete for several workers at solar block 3,esg_compliance,medium,EC06,2026-04-25,wind,synthetic
+X061,"Temporary noise increase near battery rack at inverter yard, within regulatory limit",environment,low,EN11,2026-04-18,bess_substation,synthetic
+X062,Used oil drum stored without drip tray at solar block 7,environment,low,EN09,2026-04-23,wind,synthetic
+X063,"Dripping water line at O&M workshop, plumber fixed it within hours",environment,low,EN08,2026-04-18,wind,synthetic
+X064,Water usage spike during yard grading due to valve leakage at wind turbine pad T27,environment,medium,EN04,2026-04-12,wind,synthetic
+X065,"Statutory inspection found expired pollution control board consent at substation yard, regulator notice issued",esg_compliance,high,EC01,2026-04-28,bess_substation,synthetic
+X066,CSR visitor log not updated for the month at wind turbine pad T12,esg_compliance,low,EC12,2026-04-28,wind,synthetic
+X067,CSR visitor log not updated for the month at cable trench corridor,esg_compliance,low,EC12,2026-04-01,wind,synthetic
+X068,"Villagers escalated local hiring complaint to district office, site operations questioned",esg_compliance,high,EC03,2026-04-26,wind,synthetic
+X069,"Unsafe act observation: contractor technician not using handrail on stairs at cable trench corridor, corrected on the spot",safety,low,SF10,2026-04-28,bess_substation,synthetic
+X070,"Untidy work area at substation yard, tools and cable offcuts lying on the walkway, cleaned on the spot",safety,low,SF09,2026-04-10,wind,synthetic
+X071,Housekeeping deviation: loose cables and packaging left in cable trench corridor,safety,low,SF09,2026-04-11,hydro,synthetic
+X072,Statutory compliance report for hazardous waste authorisation filed after the due date,esg_compliance,medium,EC08,2026-04-21,bess_substation,synthetic
+X073,Regulator issued notice after consent to operate lapsed without renewal at solar block 3,esg_compliance,high,EC01,2026-05-09,wind,synthetic
+X074,"Oil drums kept on bare ground near solar block 3, drip tray not provided",environment,low,EN09,2026-05-04,bess_substation,synthetic
+X075,"Transformer oil spill reaching soil near cable trench corridor, containment breached, spill response activated",environment,high,EN01,2026-05-20,solar,synthetic
+X076,Diesel spill during wind gearbox refuelling at wind turbine pad T27 entered storm water drain,environment,high,EN02,2026-05-23,bess_substation,synthetic
+X077,Near miss: crane movement close to panel cleaning crew member near substation yard during night shift,safety,high,SF01,2026-05-20,hydro,synthetic
+X078,Battery electrolyte leak from hydraulic unit at powerhouse deck reached ground outside bunded area,environment,high,EN12,2026-05-17,hydro,synthetic
+X079,Regulator issued notice after hazardous waste authorisation lapsed without renewal at cable trench corridor,esg_compliance,high,EC01,2026-05-18,wind,synthetic
+X080,"Rigging crew member sustained a minor hand laceration during blade inspection, first aid given",safety,medium,SF07,2026-05-20,hydro,synthetic
+X081,"Oil seepage observed near hydraulic unit at wind turbine pad T27, contained with spill kit",environment,medium,EN03,2026-05-07,bess_substation,synthetic
+X082,Corrective action for biodiversity audit observation overdue by several weeks,esg_compliance,medium,EC05,2026-05-15,bess_substation,synthetic
+X083,Regulator issued notice after fire NOC lapsed without renewal at BESS container area,esg_compliance,high,EC01,2026-05-22,solar,synthetic
+X084,Daily toolbox talk not documented for transformer maintenance crew at solar block 7,safety,low,SF11,2026-05-22,hydro,synthetic
+X085,Housekeeping deviation: loose cables and packaging left in inverter yard,safety,low,SF09,2026-05-01,solar,synthetic
+X086,"Untidy work area at O&M workshop, tools and cable offcuts lying on the walkway, cleaned on the spot",safety,low,SF09,2026-05-28,solar,synthetic
+X087,Sewage treatment plant at powerhouse deck exceeded effluent discharge limit in routine sample test,environment,medium,EN05,2026-05-23,bess_substation,synthetic
+X088,"Dust from unpaved road at inverter yard affecting nearby village, complaint received",environment,medium,EN06,2026-05-21,solar,synthetic
+X089,Repeated waste segregation deviation at BESS container area,esg_compliance,low,EC09,2026-05-14,wind,synthetic
+X090,"Contractor technician sustained a minor hand laceration during transformer maintenance, first aid given",safety,medium,SF07,2026-05-28,solar,synthetic
+X091,"Effluent sample from penstock access road above permissible limit, retest ordered",environment,medium,EN05,2026-06-17,hydro,synthetic
+X092,"Waste manifest register entries incomplete for one day, updated after reminder",esg_compliance,low,EC11,2026-06-27,bess_substation,synthetic
+X093,"Waste segregation not followed again at contractor storage area, mixed bins noticed by auditor",esg_compliance,low,EC09,2026-06-09,wind,synthetic
+X094,"Grievance about road damage from nearby village not yet closed, follow-up overdue",esg_compliance,medium,EC07,2026-06-16,wind,synthetic
+X095,"Unsafe act observation: electrician not using handrail on stairs at powerhouse deck, corrected on the spot",safety,low,SF10,2026-06-08,hydro,synthetic
+X096,"Dropped object from height landed inside exclusion zone at inverter yard, no one injured, area barricaded",safety,medium,SF12,2026-06-05,wind,synthetic
+X097,Diesel spill during DG set refuelling at powerhouse deck entered storm water drain,environment,high,EN02,2026-06-03,bess_substation,synthetic
+X098,"Minor oil seepage from wind gearbox found during inspection of cable trench corridor, absorbent pads applied",environment,medium,EN03,2026-06-07,bess_substation,synthetic
+X099,Diesel spill during switchgear panel refuelling at BESS container area entered storm water drain,environment,high,EN02,2026-06-16,solar,synthetic
+X100,Policy display board on biodiversity not updated at BESS container area,esg_compliance,low,EC10,2026-06-28,bess_substation,synthetic
+X101,"Minor water leakage from tap at contractor storage area wash area, repaired same day",environment,low,EN08,2026-06-08,hydro,synthetic
+X102,Water usage spike during yard grading due to broken coupling at cable trench corridor,environment,medium,EN04,2026-06-24,wind,synthetic
+X103,"Community grievance on road damage logged, response pending beyond 7 days",esg_compliance,medium,EC07,2026-06-18,solar,synthetic
+X104,Repeated waste segregation deviation at solar block 7,esg_compliance,low,EC09,2026-06-21,bess_substation,synthetic
+X105,"PPE non-compliance observed during panel cleaning, safety shoes not worn at inverter yard",safety,medium,SF06,2026-06-13,hydro,synthetic
+X106,"Panel cleaning crew member felt dizzy from heat during module installation at substation yard, moved to shade and given first aid",safety,medium,SF08,2026-06-25,bess_substation,synthetic
+X107,Housekeeping deviation: loose cables and packaging left in contractor storage area,safety,low,SF09,2026-06-01,solar,synthetic
+X108,Stakeholder visit record missing for one site visit at wind turbine pad T12,esg_compliance,low,EC12,2026-06-21,solar,synthetic
+X109,Audit finding on waste handling still open beyond due date at BESS container area,esg_compliance,medium,EC05,2026-07-08,wind,synthetic
+X110,"Community grievance on noise at night logged, response pending beyond 7 days",esg_compliance,medium,EC07,2026-07-05,bess_substation,synthetic
+X111,"Statutory inspection found expired hazardous waste authorisation at contractor storage area, regulator notice issued",esg_compliance,high,EC01,2026-07-25,hydro,synthetic
+X112,"Hand cut while blade inspection at BESS container area, first aid treatment, unsuitable tool used",safety,medium,SF07,2026-07-10,solar,synthetic
+X113,Excess engine idling at O&M workshop reported by security,environment,low,EN10,2026-07-22,bess_substation,synthetic
+X114,"Oil seepage observed near DG set at solar block 7, contained with spill kit",environment,medium,EN03,2026-07-04,hydro,synthetic
+X115,"Community grievance on road damage logged, response pending beyond 7 days",esg_compliance,medium,EC07,2026-07-26,solar,synthetic
+X116,"Transformer oil spill reaching soil near penstock access road, containment breached, spill response activated",environment,high,EN01,2026-07-12,solar,synthetic
+X117,"Excess dust during gearbox oil top-up near solar block 3, water sprinkling delayed, villagers complained",environment,medium,EN06,2026-07-27,bess_substation,synthetic
+X118,"Contractor slipped near freshly washed ramp at penstock access road, minor injury, housekeeping issue",safety,medium,SF05,2026-07-23,wind,synthetic
+X119,"Water usage spike during module cleaning due to broken coupling, tank level dropped overnight",environment,medium,EN04,2026-07-15,bess_substation,synthetic
+X120,"Grievance about grazing land access from nearby village not yet closed, follow-up overdue",esg_compliance,medium,EC07,2026-07-28,wind,synthetic
+X121,"Community grievance on grazing land access logged, response pending beyond 7 days",esg_compliance,medium,EC07,2026-07-15,wind,synthetic
+X122,Used oil removed from substation yard by vendor without valid authorisation or manifest,esg_compliance,high,EC04,2026-07-01,bess_substation,synthetic
+X123,"Community grievance on local hiring logged, response pending beyond 7 days",esg_compliance,medium,EC07,2026-07-07,hydro,synthetic
+X124,Safety induction records missing for new contractor crew at wind turbine pad T27,esg_compliance,medium,EC06,2026-07-20,hydro,synthetic
+X125,"Minor water leakage from tap at solar block 7 wash area, repaired same day",environment,low,EN08,2026-07-08,bess_substation,synthetic
+X126,"Dust from unpaved road at powerhouse deck affecting nearby village, complaint received",environment,medium,EN06,2026-07-16,bess_substation,synthetic
+X127,Water usage spike during module installation due to hose pipe left running at solar block 7,environment,medium,EN04,2026-08-13,wind,synthetic
+X128,Daily toolbox talk not documented for yard grading crew at contractor storage area,safety,low,SF11,2026-08-14,hydro,synthetic
+X129,"Transformer oil spill reaching soil near wind turbine pad T27, containment breached, spill response activated",environment,high,EN01,2026-08-10,hydro,synthetic
+X130,"Heat stress symptoms reported by electrician during cable laying in afternoon, rest and water provided",safety,medium,SF08,2026-08-24,wind,synthetic
+X131,"Electrician sustained a minor hand laceration during module installation, first aid given",safety,medium,SF07,2026-08-04,wind,synthetic
+X132,"Observation: electrician walking without holding handrail at inverter yard, counselled immediately",safety,low,SF10,2026-08-01,wind,synthetic
+X133,Housekeeping deviation: loose cables and packaging left in main gate,safety,low,SF09,2026-08-10,wind,synthetic
+X134,Coolant release from wind gearbox at solar block 7 escaped secondary containment,environment,high,EN12,2026-08-19,hydro,synthetic
+X135,"Effluent sample from substation yard above permissible limit, retest ordered",environment,medium,EN05,2026-08-06,solar,synthetic
+X136,"Untidy work area at solar block 7, tools and cable offcuts lying on the walkway, cleaned on the spot",safety,low,SF09,2026-08-27,solar,synthetic
+X137,"Oil seepage observed near wind gearbox at O&M workshop, contained with spill kit",environment,medium,EN03,2026-08-05,wind,synthetic
+X138,Safety induction records missing for new contractor crew at solar block 7,esg_compliance,medium,EC06,2026-08-08,solar,synthetic
+X139,"Dripping water line at O&M workshop, plumber fixed it within hours",environment,low,EN08,2026-08-20,wind,synthetic
+X140,Safety induction records missing for new contractor crew at contractor storage area,esg_compliance,medium,EC06,2026-08-15,hydro,synthetic
+X141,Statutory compliance report for hazardous waste authorisation filed after the due date,esg_compliance,medium,EC08,2026-08-19,solar,synthetic
+X142,Noise slightly above internal target near DG set during test run at BESS container area,environment,low,EN11,2026-08-21,wind,synthetic
+X143,Housekeeping deviation: loose cables and packaging left in inverter yard,safety,low,SF09,2026-08-08,wind,synthetic
+X144,"Minor water leakage from tap at solar block 3 wash area, repaired same day",environment,low,EN08,2026-08-14,bess_substation,synthetic
+X145,"Contractor minimum wage records inconsistent for site workers, inspector raised non-conformity",esg_compliance,high,EC02,2026-09-10,solar,synthetic
+X146,"Panel cleaning crew member felt dizzy from heat during cable laying at powerhouse deck, moved to shade and given first aid",safety,medium,SF08,2026-09-22,wind,synthetic
+X147,Repeated waste segregation deviation at cable trench corridor,esg_compliance,low,EC09,2026-09-04,wind,synthetic
+X148,Regulator issued notice after consent to operate lapsed without renewal at inverter yard,esg_compliance,high,EC01,2026-09-02,wind,synthetic
+X149,Safety induction records missing for new contractor crew at contractor storage area,esg_compliance,medium,EC06,2026-09-04,bess_substation,synthetic
+X150,"Contractor minimum wage records inconsistent for site workers, inspector raised non-conformity",esg_compliance,high,EC02,2026-09-09,bess_substation,synthetic
+X151,Water usage spike during yard grading due to tank overflow at cable trench corridor,environment,medium,EN04,2026-09-01,solar,synthetic
+X152,"Heat stress symptoms reported by rigging crew member during module installation in afternoon, rest and water provided",safety,medium,SF08,2026-09-19,solar,synthetic
+X153,Audit finding on emergency drill still open beyond due date at contractor storage area,esg_compliance,medium,EC05,2026-09-21,bess_substation,synthetic
+X154,Repeated waste segregation deviation at O&M workshop,esg_compliance,low,EC09,2026-09-14,bess_substation,synthetic
+X155,"Calibration register entries incomplete for one day, updated after reminder",esg_compliance,low,EC11,2026-09-14,hydro,synthetic
+X156,Toolbox talk record missing for second shift at inverter yard,safety,low,SF11,2026-09-14,bess_substation,synthetic
+X157,"Observation: security guard walking without holding handrail at BESS container area, counselled immediately",safety,low,SF10,2026-09-02,bess_substation,synthetic
+X158,"Sparking and smoke from power transformer at substation yard, fire extinguisher used to put out flames",safety,high,SF04,2026-09-25,bess_substation,synthetic
+X159,Environmental return for pollution control board consent submitted late for the quarter,esg_compliance,medium,EC08,2026-09-15,bess_substation,synthetic
+X160,"Panel cleaning crew member working at height without harness during vegetation clearing, found by supervisor at O&M workshop",safety,high,SF03,2026-09-25,solar,synthetic
+X161,"Heat stress symptoms reported by electrician during vegetation clearing in afternoon, rest and water provided",safety,medium,SF08,2026-09-23,bess_substation,synthetic
+X162,PPE non-compliance observed: rigging crew member without safety shoes during blade inspection,safety,medium,SF06,2026-09-18,solar,synthetic
